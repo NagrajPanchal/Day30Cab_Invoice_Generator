@@ -1,4 +1,4 @@
-// step4 : Cab Invoice Generate Invoice Service
+// step5 : Cab Invoice Generate Premium Rides (Bonus)
 package com.bridgelabz;
 
 import org.junit.jupiter.api.Assertions;
@@ -49,5 +49,21 @@ public class CabInvoiceTest
         Invoice expectedInvoice2 = new Invoice(3,273,91);
         Assertions.assertEquals(expectedInvoice1,actualInvoice1);
         Assertions.assertEquals(expectedInvoice2,actualInvoice2);
+    }
+    @Test
+    public void givenMultipleRidesShould_ReturnInvoice_ForPremiumRides(){
+        Ride[] rides = {new Ride(12.34,6),new Ride(10,4)};
+        CabInvoice cabInvoice = new CabInvoice();
+        Invoice actualInvoice = cabInvoice.getInvoiceOfPremiumRides(rides);
+        Invoice expectedInvoice = new Invoice(2,355.1,177.55);
+        Assertions.assertEquals(expectedInvoice,actualInvoice);
+    }
+    @Test
+    public void givenMultipleRidesShould_ReturnInvoice_ForNormalAndPremiumRides(){
+        Ride[] rides ={new Ride(12,3,"Normal"),new Ride(13.4,4,"Premium"),new Ride(17,8,"Premium")};
+        CabInvoice cabInvoice = new CabInvoice();
+        Invoice actualInvoice = cabInvoice.getInvoiceOfRidesOfBothRides(rides);
+        Invoice expectedInvoice = new Invoice(3,603,201);
+        Assertions.assertEquals(expectedInvoice,actualInvoice);
     }
 }
