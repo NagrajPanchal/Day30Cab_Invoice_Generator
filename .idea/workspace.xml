@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="739b20f5-3501-454f-ae2a-246237700905" name="Changes" comment="Added : Calculate Fare">
+    <list default="true" id="739b20f5-3501-454f-ae2a-246237700905" name="Changes" comment="Added : Cab Invoice Generate Calculate Fare">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/Ride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/CabInvoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/CabInvoice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/CabInvoiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/CabInvoiceTest.java" afterDir="false" />
     </list>
@@ -23,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Step1-Calculate_Fare" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668748846865</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added : Cab Invoice Generate Calculate Fare">
+      <created>1668749268404</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668749268404</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added : Calculate Fare" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added : Calculate Fare" />
+    <MESSAGE value="Added : Cab Invoice Generate Calculate Fare" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added : Cab Invoice Generate Calculate Fare" />
   </component>
 </project>
